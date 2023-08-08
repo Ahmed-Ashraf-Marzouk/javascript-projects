@@ -145,13 +145,13 @@ function checkGameOver(){
         case(snake[0].x < 0):
             running = false
             break
-        case(snake[0].x > gameWidth):
+        case(snake[0].x > gameWidth - unitSize):
             running = false
             break
             case(snake[0].y < 0):
             running = false
             break
-        case(snake[0].y > gameHeight):
+        case(snake[0].y > gameHeight - unitSize):
             running = false
             break
     }
@@ -188,4 +188,4 @@ function resetGame(){
 // 1. Max score 
 // 2. Random Food Colors
 // 3. Restart on KeyStroke
-// 
+// 4. Right and Bottom BUG FIX! 
