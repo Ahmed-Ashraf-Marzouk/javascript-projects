@@ -1,0 +1,25 @@
+.gameDiv{
+    background-color: antiquewhite;
+    border: 2px solid coral;
+    border-radius: 4px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 4px;
+}
+
+.choiceBtn{
+    line-height: 25px;
+}
+
+#playerText{
+    color:blueviolet;
+}
+
+#computerText{
+    color:brown;
+}
+
+#resultText{
+    color:blue;
+}
